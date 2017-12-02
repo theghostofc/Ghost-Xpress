@@ -1,0 +1,43 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Ghost Xpress - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "D:\DOCUME~1\ravivek\LOCALS~1\Temp\RSP23.tmp" with contents
+[
+/nologo /MDd /W3 /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/Ghost Xpress.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\Documents and Settings\ravivek\Desktop\Ghost Xpress\Ghost XpressView.cpp"
+]
+Creating command line "cl.exe @D:\DOCUME~1\ravivek\LOCALS~1\Temp\RSP23.tmp" 
+Creating temporary file "D:\DOCUME~1\ravivek\LOCALS~1\Temp\RSP24.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Ghost Xpress.pdb" /debug /machine:I386 /out:"Debug/Ghost Xpress.exe" /pdbtype:sept 
+".\Debug\Catalog.obj"
+".\Debug\DescView.obj"
+".\Debug\Ghost Xpress.obj"
+".\Debug\Ghost XpressDoc.obj"
+".\Debug\Ghost XpressView.obj"
+".\Debug\LeftView.obj"
+".\Debug\MainFrm.obj"
+".\Debug\Progress.obj"
+".\Debug\Search.obj"
+".\Debug\SelectDrive.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Ghost Xpress.res"
+]
+Creating command line "link.exe @D:\DOCUME~1\ravivek\LOCALS~1\Temp\RSP24.tmp"
+<h3>Output Window</h3>
+Compiling...
+Ghost XpressView.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+Ghost Xpress.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
